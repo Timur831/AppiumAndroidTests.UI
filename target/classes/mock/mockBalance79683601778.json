@@ -1,0 +1,61 @@
+[{
+    "characteristics": [{
+        "name": "platformId",
+        "value": "0",
+        "valueType": "string"
+    }],
+    "confirmationDate": null,
+    "description": "CORE BALANCE",
+    "href": "ucp:ucp_conn_comverse_0/customer_account_balances_ext",
+    "id": "79683601778-1",
+    "initialValue": null,
+    "logicalResource": [{
+        "href": null,
+        "id": "79683601778",
+        "name": "MSISDN",
+        "value": "79683601778",
+        "@baseType": "Resource",
+        "@referredType": "MSISDN",
+        "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/Common/logicalResourceRef.json"
+    }],
+    "name": "CORE BALANCE",
+    "partyAccount": null,
+    "product": [],
+    "relatedParty": [],
+    "remainingValue": {
+        "unit": "RUR",
+        "value": {
+            "digits": 0,
+            "value": 200
+        }
+    },
+    "remainingValueName": "",
+    "requestedDate": {
+        "timestampUTC": 1693135006,
+        "zone": "Europe/Moscow"
+    },
+    "reservedValue": {
+        "unit": "RUR",
+        "value": {
+            "digits": 1,
+            "value": 0
+        }
+    },
+    "status": "active",
+    "usageType": "monetary",
+    "validFor": {
+        "endDateTime": {
+            "timestampUTC": 0,
+            "zone": null
+        },
+        "startDateTime": {
+            "timestampUTC": 0,
+            "zone": null
+        }
+    },
+    "shared": false,
+    "@baseType": "Bucket",
+    "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/BalanceManagement/Bucket.json",
+    "@type": "Bucket",
+    "isShared": false
+}]

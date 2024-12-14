@@ -1,0 +1,51 @@
+[{
+    "characteristics": [],
+    "confirmationDate": null,
+    "description": "Inac",
+    "href": "ucp:ucp_conn_inac/inac_balances",
+    "id": "0894860838-0",
+    "initialValue": null,
+    "logicalResource": [{
+        "href": null,
+        "id": "0894860838",
+        "name": "CTN",
+        "value": "0894860838",
+        "@baseType": "Resource",
+        "@referredType": "CTN",
+        "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/Common/logicalResourceRef.json"
+    }],
+    "name": "Inac",
+    "partyAccount": null,
+    "product": [],
+    "relatedParty": [],
+    "remainingValue": {
+        "unit": "RUR",
+        "value": {
+            "digits": 2,
+            "value": 200
+        }
+    },
+    "remainingValueName": "",
+    "requestedDate": {
+        "timestampUTC": 1691567928,
+        "zone": "Europe/Moscow"
+    },
+    "reservedValue": null,
+    "status": "active",
+    "usageType": "monetary",
+    "validFor": {
+        "endDateTime": {
+            "timestampUTC": null,
+            "zone": null
+        },
+        "startDateTime": {
+            "timestampUTC": 0,
+            "zone": null
+        }
+    },
+    "shared": false,
+    "@baseType": "Bucket",
+    "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/BalanceManagement/Bucket.json",
+    "@type": "Bucket",
+    "isShared": false
+}]

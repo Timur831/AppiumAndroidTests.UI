@@ -1,0 +1,217 @@
+[{
+    "bucket": {},
+    "lastChargedAmount": {
+        "unit": "RUR",
+        "value": {
+            "digits": 0,
+            "value": 70
+        }
+    },
+    "lastTarificationDate": {
+        "timestampUTC": 1690923600,
+        "zone": "GMT+03:00"
+    },
+    "logicalResource": {
+        "href": null,
+        "id": "79683601762",
+        "name": "MSISDN",
+        "value": "79683601762",
+        "@baseType": "Resource",
+        "@referredType": "MSISDN",
+        "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/Common/logicalResourceRef.json"
+    },
+    "name": "SOSP_REG",
+    "product": {
+        "id": "79683601762-RC_SOSPACKREG",
+        "name": "RC_SOSPACKREG",
+        "@baseType": "Offer",
+        "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/Common/ProductRef.json",
+        "@type": "soc"
+    },
+    "recurringChargePeriod": [{
+        "chargeAmount": {
+            "unit": "RUR",
+            "value": {
+                "digits": 0,
+                "value": 1111
+            }
+        },
+        "cycleType": "longCycle",
+        "nextTarificationDate": {
+            "timestampUTC": 1691787600,
+            "zone": "Etc/GMT"
+        },
+        "periodValue": {
+            "unit": "day",
+            "value": {
+                "digits": 0,
+                "value": 1
+            }
+        }
+    }, {
+        "chargeAmount": {
+            "unit": "RUR",
+            "value": {
+                "digits": 0,
+                "value": 70
+            }
+        },
+        "cycleType": "shortCycle",
+        "nextTarificationDate": null,
+        "periodValue": {
+            "unit": "day",
+            "value": {
+                "digits": 0,
+                "value": 1
+            }
+        }
+    }],
+    "recurringPeriodType": "Daily",
+    "@baseType": "RecalculationParams",
+    "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/BalanceManagement/RecalculationParams.json",
+    "@type": "RecalculationParams"
+}, {
+    "bucket": {},
+    "lastChargedAmount": {
+        "unit": "RUR",
+        "value": {
+            "digits": 0,
+            "value": 50
+        }
+    },
+    "lastTarificationDate": {
+        "timestampUTC": 1689886800,
+        "zone": "GMT+03:00"
+    },
+    "logicalResource": {
+        "href": null,
+        "id": "79683601762",
+        "name": "MSISDN",
+        "value": "79683601762",
+        "@baseType": "Resource",
+        "@referredType": "MSISDN",
+        "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/Common/logicalResourceRef.json"
+    },
+    "name": "SOSP_REG",
+    "product": {
+        "id": "79683601762-ALCO_RC_SOSPACKREG",
+        "name": "ALCO_RC_SOSPACKREG",
+        "@baseType": "Product",
+        "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/Common/ProductRef.json",
+        "@type": "supplementary_offers"
+    },
+    "recurringChargePeriod": [{
+        "chargeAmount": {
+            "unit": "RUR",
+            "value": {
+                "digits": 0,
+                "value": 2222
+            }
+        },
+        "cycleType": "longCycle",
+        "nextTarificationDate": {
+            "timestampUTC": 1692046800,
+            "zone": "Etc/GMT"
+        },
+        "periodValue": {
+            "unit": "day",
+            "value": {
+                "digits": 0,
+                "value": 1
+            }
+        }
+    }, {
+        "chargeAmount": {
+            "unit": "RUR",
+            "value": {
+                "digits": 0,
+                "value": 0
+            }
+        },
+        "cycleType": "shortCycle",
+        "nextTarificationDate": null,
+        "periodValue": {
+            "unit": "day",
+            "value": {
+                "digits": 0,
+                "value": 1
+            }
+        }
+    }],
+    "recurringPeriodType": "Daily",
+    "@baseType": "RecalculationParams",
+    "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/BalanceManagement/RecalculationParams.json",
+    "@type": "RecalculationParams"
+}, {
+    "bucket": {},
+    "lastChargedAmount": {
+        "unit": "RUR",
+        "value": {
+            "digits": 0,
+            "value": 70
+        }
+    },
+    "lastTarificationDate": {
+        "timestampUTC": 1690923600,
+        "zone": "GMT+03:00"
+    },
+    "logicalResource": {
+        "href": null,
+        "id": "79683600288",
+        "name": "MSISDN",
+        "value": "79683601762",
+        "@baseType": "Resource",
+        "@referredType": "MSISDN",
+        "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/Common/logicalResourceRef.json"
+    },
+    "name": "SOSP_REG",
+    "product": {
+        "id": "79683601762-RC_SOSPACKREG",
+        "name": "RC_SOSPACKREG",
+        "@baseType": "Offer",
+        "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/Common/ProductRef.json",
+        "@type": "soc"
+    },
+    "recurringChargePeriod": [{
+        "chargeAmount": {
+            "unit": "RUR",
+            "value": {
+                "digits": 0,
+                "value": 3333
+            }
+        },
+        "cycleType": "longCycle",
+        "nextTarificationDate": {
+            "timestampUTC": 1692478800,
+            "zone": "Etc/GMT"
+        },
+        "periodValue": {
+            "unit": "day",
+            "value": {
+                "digits": 0,
+                "value": 1
+            }
+        }
+    }, {
+        "chargeAmount": {
+            "unit": "RUR",
+            "value": {
+                "digits": 0,
+                "value": 1234
+            }
+        },
+        "cycleType": "shortCycle",
+        "nextTarificationDate": null,
+        "periodValue": {
+            "unit": "day",
+            "value": {
+                "digits": 0,
+                "value": 1
+            }
+        }
+    }],
+    "recurringPeriodType": "Daily",
+    "@baseType": "RecalculationParams",
+    "@schemaLocation": "https://git.vimpelcom.ru/products/ucp/ia-2.0/-/blob/master/BalanceManagement/RecalculationParams.json",
+    "@type": "RecalculationParams"
+}]
